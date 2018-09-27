@@ -1,0 +1,209 @@
+body{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo h1 { 
+	
+	display: block;
+    font-size:10vw
+    margin-top: 10m;
+    margin-bottom: 1.0em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold
+
+    
+    
+}
+
+.logo h1 a img:hover {
+	transform:  scale(1.05);
+	-webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
+}
+
+.logo p {
+	
+    display: block;
+    font-size: 1.05em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+  
+}
+
+/*foto de perfil*/
+.perfil img{
+	height: 250px;
+	width: 230px;
+	border-radius: 50%;
+	border-style: outset;
+	transform:  scale(1.05);
+	-webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
+
+
+}
+
+/* Navbar */
+
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	margin-bottom: 2.0em;
+
+
+	
+		    
+}
+.navbar li {
+	 float: right;
+	 display: inline;
+
+}
+
+.navbar li a {
+	font-family: "Lucida Console", Times, monospace;
+    display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	background-color: #111;
+}
+
+.navbar	li  a:hover {
+	background-color: white;
+	color: black;
+	text-decoration: underline;
+	-webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
+}
+
+
+
+/*secciones*/
+
+div#logo{
+	width: 100%;
+	height: 660px;
+}
+
+div#first{
+	
+	margin: 0px auto;
+	width: 50%;
+	height: 660px;
+}
+
+div#second{
+	margin: 0px auto;
+	width: 50%;
+	height: 660px;
+	
+}
+
+div#third{
+	margin: 0px auto;
+	width: 50%;
+	height: 660px;	
+}
+
+div#fourth{
+	
+	margin: 0px auto;
+	width: 50%;
+	height: 660px;
+}
+
+div#fourth video{
+	transform:  scale(1.05);
+	-webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
+}
+
+.title{
+	font-family: "Lucida Console", Times, monospace;
+	font-size: 20px;
+}
+
+
+.subtitle{
+	text-align: center;
+	font-family: "Lucida Console", Times, monospace;
+	font-size: 18px;
+	/*-webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));*/
+	text-decoration: underline;
+	background-color: #111;
+	color: white;
+	text-decoration: none;
+	padding: 14px 16px;
+	
+}
+
+.subtitle-T{
+	font-family: "Lucida Console", Times, monospace;
+	font-size: 16px;
+	
+}
+
+.text{
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-size: 14px;
+	
+}
+
+.back{
+	font-family: "Lucida Console", Times, monospace;
+    font-size: 14px;
+    text-decoration: underline;	
+}
+
+.back a:hover{
+	background-color: #111;
+	color: white;
+	text-decoration: none;
+}
+
+@media screen and (min-width: 1300px) {
+  body {
+    font-size: 17px;
+  }
+
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+.imagen img{
+	height: 300px;
+	width: 200px;
+	transform:  scale(1.05);
+	-webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
+}
+
+#img-40206152-10217910145933078-5856714522626097152-o, .img-40753901-10217976952563202-2732193490585780224-o, .img-13442210-10209871475891351-7265150013672690610-n, .img-13466180-10209885684966569-6645295808790619594-n, .img-41547375-10218034493001677-3507415661376700416-n
+{ display: inline-block; background: url('escritos.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+ 
+#img-40206152-10217910145933078-5856714522626097152-o { background-position: -0px -0px; width: 1080px; height: 1350px; }
+#img-40206152-10217910145933078-5856714522626097152-o img {
+	height: 32px;
+	  width: 32px;
+	  background-image: url("escritos.png");
+	  background-repeat: no-repeat;
+	  vertical-align: middle;
+	}
+#img-40753901-10217976952563202-2732193490585780224-o { background-position: -0px -1350px; width: 1080px; height: 1920px; }
+#img-13442210-10209871475891351-7265150013672690610-n { background-position: -0px -3270px; width: 564px; height: 853px; }
+#img-13466180-10209885684966569-6645295808790619594-n { background-position: -564px -3270px; width: 500px; height: 733px; }
+#img-41547375-10218034493001677-3507415661376700416-n { background-position: -564px -4003px; width: 455px; height: 549px; }
